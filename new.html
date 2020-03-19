@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<meta charset="utf-8">
+<title>Задание 3</title>
+<link rel="stylesheet" href="new.css">
+</head>
+<body>
+<div class="forma">
+<h1>Форма</h1>
+<form target="_blank" action="myPHP.php" method="post">
+<label> 
+Имя:
+<br/>
+<input name="field-name" type="text" value="Введите Имя">
+</label>
+<br/>
+<label> 
+Email:
+<br/>
+<input name="field-email" type="email" value="Введите Email">
+</label>
+<br/>
+<label> 
+Дата рождения:
+<br/>
+<input name="field-date" type="date" >
+</label>
+<br/>
+Пол:
+<br/>
+<label>
+<input type="radio" checked="checked" name="radio-sex" value="Значение1">
+Мужской
+</label>
+<label>
+<input type="radio" name="radio-sex" value="Значение2">
+Женский
+</label>
+<br/>
+Количество конечностей:
+<br/>
+<label>
+<input type="radio" checked="checked" name="radio-kon">
+0
+</label>
+<label>
+<input type="radio"  name="radio-kon">
+1
+</label>
+<label>
+<input type="radio"  name="radio-kon">
+2
+</label>
+<label>
+<input type="radio"  name="radio-kon">
+3
+</label>
+<label>
+<input type="radio"  name="radio-kon">
+4
+</label>
+<br/>
+<label>
+Сверхспособности:
+<br/>
+<select name="field-superpowers" multiple="multiple">
+<option value="бессмертие">Бессмертие</option>
+<option value="прохождение">Прохождение сквозь стены</option>
+<option value="левитация">Левитация</option>
+</select>
+</label>
+<br>
+<label>
+Биография:
+<br/>
+<textarea name="field-name-2"> </textarea>
+</label>
+<br/>
+<label>
+<input type="checkbox" name="check">
+C контрактом ознакомлен
+</label>
+<br/>
+<input type="submit" name="send" value="Отправить">
+</form>
+</div>
+</body> 
+</html>
